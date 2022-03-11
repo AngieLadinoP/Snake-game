@@ -30,8 +30,8 @@ class Snake:
 
     # Add segments to snake's body
     def add_segment(self,position):
-        snake_segment = Turtle("square")
-        snake_segment.color("blue")
+        snake_segment = Turtle("circle")
+        snake_segment.color("#e71224")
         snake_segment.penup() # Delete movement line between squares 
         snake_segment.goto(position)
         self.segments.append(snake_segment)

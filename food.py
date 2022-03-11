@@ -8,10 +8,10 @@ class Food(Turtle):
     def __init__(self):
         # Bring everything of super class, in this case, Turtle
         super().__init__()
-        self.shape("circle")
+        self.shape()
         self.penup()
-        self.shapesize(stretch_len=0.5, stretch_wid=0.5)
-        self.color("blue")
+        self.shapesize(stretch_len=1, stretch_wid=1)
+        self.color("white")
         self.speed("fastest")
         self.refresh()
 
