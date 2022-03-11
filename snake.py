@@ -8,7 +8,7 @@ from turtle import Turtle
 # Build snakes body
 STARTING_POSITION=[(0,0),(-20,0),(-40,0)]
 
-# FDefine constants for direction (it takes grades as parameters)
+# FDefine constants for direction (it takes degrees as parameters)
 UP=90
 DOWN=270
 LEFT=180
@@ -48,7 +48,7 @@ class Snake:
 
     def up(self):
         if self.head.heading()!=DOWN: 
-            self.head.setheading(UP) # Set heading is to tell direction(it is used with gradaes) 
+            self.head.setheading(UP) # Set heading is a method to tell direction(it is used with degrees) 
 
     def down(self):
          if self.head.heading()!=UP:

@@ -1,4 +1,4 @@
-# Here goes what will be executed, everything related to the game functioning
+# Here goes what will be executed, everything related with the game functioning
 
 # Import class "Screen " from turtel
 # Classes in python are written capitalize 
@@ -53,7 +53,7 @@ while game_is_on:
         game_is_on=False
         scoreboard.game_over()
 
-# Detect collisions of segments on snake
+# Detect collisions on snake's body
     for segment in snake.segments:
         if segment==snake.head:
             pass
